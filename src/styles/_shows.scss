@@ -5,6 +5,10 @@
     min-height: 50vw;
     margin-top: 20px;
 
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
+
     &__list{
         display: none;
         grid-template-columns: 1fr 1fr 1fr ;
